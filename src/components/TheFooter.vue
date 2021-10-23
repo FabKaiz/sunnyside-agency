@@ -68,5 +68,11 @@
 </template>
 
 <style lang="scss" scoped>
-
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
 </style>

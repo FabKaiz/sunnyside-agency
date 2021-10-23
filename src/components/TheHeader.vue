@@ -43,6 +43,8 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 0;
+  margin: 0;
+  margin-top: 32px;
 }
 
 a {
@@ -51,7 +53,8 @@ a {
 }
 
 li {
-  margin: 1rem;
+  margin: 0 1.3rem;
+  margin-top: 12px;
 }
 .nav-container {
   position: inherit;
@@ -60,20 +63,20 @@ li {
 }
 
 .nav-left {
-  padding-left: 40px;
+  padding-left: 38px;
 }
 
 .nav-right {
-  padding-right: 40px;
+  padding-right: 38px;
 }
 
 #contact-button {
   border-radius: 99px;
-  padding: 15px 20px;
+  padding: 18px 26px;
   background-color: hsl(0, 0%, 100%);
   color: black;
   font-family: 'Fraunces', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   transition: all 0.2s;
 
   &:hover {

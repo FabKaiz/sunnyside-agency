@@ -1,16 +1,16 @@
-import { createRouter, createWebHistory } from "vue-router";
-import Home from "../views/Home.vue";
+import { createRouter, createWebHistory } from 'vue-router';
+import Home from '../views/Home.vue';
 
 const routes = [
   {
-    path: "/",
-    name: "Home",
+    path: '/',
+    name: 'Home',
     component: Home,
   },
   {
-    path: "/:notFound(.*)",
-    name: "NotFound",
-    component: () => import("../views/NotFound.vue"),
+    path: '/:notFound(.*)',
+    name: 'NotFound',
+    component: () => import('../views/NotFound.vue'),
   },
 ];
 
