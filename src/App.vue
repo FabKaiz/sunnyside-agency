@@ -1,26 +1,33 @@
 <template>
-  <the-header></the-header>
-
   <router-view />
 </template>
 
 <script>
-import TheHeader from "./components/TheHeader.vue";
-
 export default {
-  components: {
-    TheHeader,
-  },
   created() {
-    document.title = "Sunnyside Agency | Frontend Mentor";
+    document.title = 'Sunnyside Agency | Frontend Mentor';
   },
 };
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
 html,
 body {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Barlow', sans-serif;
+}
+
+h1,
+h2,
+h3,
+button {
+  font-family: 'Fraunces', sans-serif;
 }
 </style>

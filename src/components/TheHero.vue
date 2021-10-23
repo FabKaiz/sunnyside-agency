@@ -1,5 +1,6 @@
 <template>
   <section class="hero">
+    <the-header></the-header>
     <h1 id="main-title">WE ARE CREATIVES</h1>
     <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">
       <g
@@ -17,16 +18,18 @@
 </template>
 
 <script>
-  export default {
-    
-  }
+import TheHeader from './TheHeader.vue';
+export default {
+  components: {
+    TheHeader,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-  .hero {
-    background-image: url(../assets/images/desktop/image-header.jpg);
-    height: 100%;
-    max-height: 1920px;
-    
-  }
+.hero {
+  background-image: url(../assets/images/desktop/image-header.jpg);
+  height: 100%;
+  max-height: 1920px;
+}
 </style>
