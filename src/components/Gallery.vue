@@ -19,4 +19,14 @@
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.gallery-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
