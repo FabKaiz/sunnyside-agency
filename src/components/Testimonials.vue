@@ -53,8 +53,8 @@
     text-align: center;
     text-transform: uppercase;
     font-size: 21px;
-    font-family: "Fraunces",serif;
-    letter-spacing: .25em;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.25em;
     color: #a7abae;
     margin: 0;
   }
@@ -88,7 +88,7 @@
   }
 
   .name {
-    font-family: "Fraunces",serif;
+    font-family: 'Fraunces', serif;
     font-weight: 900;
     color: #23303e;
   }
