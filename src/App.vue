@@ -15,11 +15,14 @@ export default {
 
 html,
 body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
 }
 
 body {
+  box-sizing: border-box;
   font-size: 18px;
   font-family: 'Barlow', sans-serif;
 }
