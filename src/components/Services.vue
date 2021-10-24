@@ -155,7 +155,7 @@ export default {};
   flex-direction: column;
   align-items: center;
   text-align: center;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .services-text {
