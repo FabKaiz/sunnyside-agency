@@ -33,18 +33,22 @@
       <button class="learn-more btn-pink">LEARN MORE</button>
     </div>
     <div class="service-image-and-info service-graphic">
-      <h2>Graphic Design</h2>
-      <p>
-        Great design makes you memorable. We deliver artwork that underscores
-        your brand message and captures potential clients’ attention.
-      </p>
+      <div class="services-text">
+        <h2>Graphic Design</h2>
+        <p>
+          Great design makes you memorable. We deliver artwork that underscores
+          your brand message and captures potential clients’ attention.
+        </p>
+      </div>
     </div>
     <div class="service-image-and-info service-photography">
-      <h2>Photography</h2>
-      <p>
-        Great design makes you memorable. We deliver artwork that underscores
-        your brand message and captures potential clients’ attention.
-      </p>
+      <div class="services-text">
+        <h2>Photography</h2>
+        <p>
+          Increase your credibility by getting the most stunning, high-quality
+          photos that improve your business image.
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -57,7 +61,8 @@ export default {};
 .services-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3);
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
 }
 
 .services-info {
@@ -127,5 +132,47 @@ export default {};
   margin: auto;
   grid-row: 1/2;
   grid-column: 1/2;
+}
+
+.service-graphic {
+  background: url(../assets/images/desktop/image-graphic-design.jpg);
+  width: 100%;
+  height: auto;
+  color: #25564b;
+}
+
+.service-photography {
+  background: url(../assets/images/desktop/image-photography.jpg);
+  width: 100%;
+  height: auto;
+  color: #19536b;
+}
+
+.service-image-and-info {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+}
+
+.services-text {
+  margin: 3rem auto;
+  max-width: 340px;
+
+  h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
+
+  p {
+    margin: 1.5rem 0 0;
+    text-align: center;
+    line-height: 1.6em;
+    font-size: 16px;
+  }
 }
 </style>
