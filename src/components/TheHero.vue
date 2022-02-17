@@ -53,7 +53,5 @@ export default {
   flex-direction: column;
   align-items: center;
   padding-top: 25vh;
-  // padding-bottom: 200px;
-  // height: 100vh;
 }
 </style>
