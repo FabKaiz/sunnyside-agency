@@ -1,7 +1,7 @@
 # sunnyside agency
 
 ## RESULT
-https://sunnyside-agency.web.app/
+https://sunnyside-vue.web.app/
 
 ## Project setup
 ```
