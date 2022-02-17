@@ -34,7 +34,7 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 1920px;
+  height: 100vh;
 }
 
 #main-title {
@@ -49,10 +49,11 @@ export default {
 
 .hero-content {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-top: calc(200px - 80px);
-  padding-bottom: 200px;
-  height: 400px;
+  padding-top: 25vh;
+  // padding-bottom: 200px;
+  // height: 100vh;
 }
 </style>
